@@ -3,8 +3,8 @@ import re
 
 def DBConnection():
     conn = pyodbc.connect('Driver={SQL Server};'
-                          'Server=*******;'
-                          'Database=*******;'
+                          'Server=******;'
+                          'Database=******;'
                           'Trusted_Connection=yes;')
     return conn
 
